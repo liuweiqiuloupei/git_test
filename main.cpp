@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
     QLineEdit * lineEdit = new QLineEdit(&w) ;
     //lineEdit->setText("1");//第一次提交
     //lineEdit->setText("2");//第9次提交
-    lineEdit->setText("3");//第10次提交
+
+    lineEdit->setText("16");//第18次提交
 
     w.show();
     return a.exec();
