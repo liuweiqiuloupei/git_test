@@ -12,7 +12,9 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
     QLineEdit * lineEdit = new QLineEdit(&w) ;
-    lineEdit->setText("1");//第一次提交
+    //lineEdit->setText("1");//第一次提交
+    lineEdit->setText("2");//第9次提交
+
 
     return a.exec();
 }
