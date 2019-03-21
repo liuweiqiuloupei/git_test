@@ -1,0 +1,23 @@
+From a7963d174501fdea56993f623f56aa478f00e618 Mon Sep 17 00:00:00 2001
+From: liuweiqiu_glb <liuweiqiu_glb@126.com>
+Date: Thu, 21 Mar 2019 15:54:22 +0800
+Subject: =?UTF-8?q?=E7=AC=AC=E4=B8=80=E6=AC=A1=E4=BF=AE=E6=94=B9=20Signed-?=
+ =?UTF-8?q?off-by:=20liuweiqiu=5Fglb=20<liuweiqiu=5Fglb@126.com>?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+diff --git a/main.cpp b/main.cpp
+index b48f94e..3332502 100644
+--- a/main.cpp
++++ b/main.cpp
+@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
+ {
+     QApplication a(argc, argv);
+     MainWindow w;
+-    w.show();
++    //w.show();
+ 
+     return a.exec();
+ }
